@@ -23,7 +23,7 @@ public class MovieAdapter extends BaseAdapter {
 
     @Override
     public int getCount() {
-        return 0;
+        return movieValues.length;
     }
 
     @Override
@@ -44,9 +44,9 @@ public class MovieAdapter extends BaseAdapter {
         if(convertView == null){
             gridView = new View(context);
             gridView = inflater.inflate(R.layout.movie, null);
-            TextView textView = (TextView) gridView.findViewById(R.id.textView);
+            TextView textView = (TextView) gridView.findViewById(R.id.grid_item_label);
             textView.setText(movieValues[position]);
-            ImageView imageView = (ImageView) gridView.findViewById(R.id.imageView);
+            ImageView imageView = (ImageView) gridView.findViewById(R.id.grid_item_image);
 
             String movie = movieValues[position];
 

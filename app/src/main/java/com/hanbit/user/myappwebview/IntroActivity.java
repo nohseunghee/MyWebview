@@ -18,6 +18,12 @@ public class IntroActivity extends Activity implements View.OnClickListener{
         ((Button)findViewById(R.id.btImageView)).setOnClickListener(this);
         ((Button)findViewById(R.id.btImageViewConvert)).setOnClickListener(this);
 
+        ((Button)findViewById(R.id.btListView)).setOnClickListener(this);
+        ((Button)findViewById(R.id.btGridView)).setOnClickListener(this);
+
+
+
+
     }
 
     @Override
@@ -40,7 +46,6 @@ public class IntroActivity extends Activity implements View.OnClickListener{
             case R.id.btGridView:
                 startActivity(new Intent(this, ImageGridActivity.class));
                 break;
-
 
 
 
