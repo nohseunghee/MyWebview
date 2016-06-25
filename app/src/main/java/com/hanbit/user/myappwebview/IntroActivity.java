@@ -33,6 +33,17 @@ public class IntroActivity extends Activity implements View.OnClickListener{
                 startActivity(new Intent(this, ImageViewConvertActivity.class));
                 break;
 
+            case R.id.btListView:
+                startActivity(new Intent(this, ImageListActivity.class));
+                break;
+
+            case R.id.btGridView:
+                startActivity(new Intent(this, ImageGridActivity.class));
+                break;
+
+
+
+
         }
 
     }

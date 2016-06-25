@@ -65,17 +65,7 @@ public class ArrAdapter extends android.widget.ArrayAdapter<String> {
         return rowView;
         //return super.getView(position, convertView, parent);
     }
-    /*
-    public ArrayAdapter(Context context, String[] values){
 
-    }
-
-    @Override
-    public View getView(int position, View convertView, ViewGroup parent){
-
-
-    }
-    */
 
 
 }
