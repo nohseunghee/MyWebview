@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ImageViewActivity" />
-        <activity android:name=".ImageViewConvertActivity"></activity>
+        <activity android:name=".ImageViewConvertActivity" />
+        <activity android:name=".ListActivity"></activity>
     </application>
 
 </manifest>
